@@ -1,4 +1,4 @@
-#VIP TEAM 🔱
+#VIP TEAM_A6
 # channel [🌐VIP🏅TEAM🌐](https://telegram.me/VIP_TEAM1)
 * * *
 
