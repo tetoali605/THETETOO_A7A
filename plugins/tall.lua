@@ -77,7 +77,7 @@ return {
     "/tagall [msg]."
   },
   patterns = {
-    "^[!/]تاك للكل +(.+)$"
+    "^تاك للكل +(.+)$"
   },
   run = vip_team1
 }
