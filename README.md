@@ -14,10 +14,10 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get upgrade
 
 #4
-git clone https://github.com/vipteam1/VIPTEAM.git
+git clone https://github.com/vipteam1/VIP_TEAM_A6.git
 
 #5
-cd VIPTEAM
+cd VIPTEAM_A6
 
 #6
 chmod +x launch.sh
@@ -43,5 +43,5 @@ Then restart the bot.
 # Support and development [🌐VIP🏅TEAM🌐](https://telegram.me/VIP_TEAM1) 🐾
 
 For managing on Telegram.
-ADD Source [@Mardona](https://telegram.me/Mardona) ❤️
+ADD Source [@VIP_TEAM1](https://telegram.me/VIP_TEAM1) ❤️
 Subscribe to Source channel [🌐VIP🏅TEAM🌐](https://telegram.me/VIP_TEAM1) 
