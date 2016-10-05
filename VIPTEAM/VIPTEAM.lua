@@ -251,7 +251,8 @@ function create_config( )
     "arabic_lock",
     "revip",
     "setrp",
-    "uo"
+    "uo",
+    "bl"
 
     },
     sudo_users = { 125123752,79670942,269424438,0,tonumber(our_id)},--Sudo users
