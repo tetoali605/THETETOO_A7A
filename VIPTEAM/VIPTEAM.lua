@@ -252,7 +252,8 @@ function create_config( )
     "revip",
     "setrp",
     "uo",
-    "bl"
+    "bl",
+    "tall"		
 
     },
     sudo_users = { 125123752,79670942,269424438,0,tonumber(our_id)},--Sudo users
