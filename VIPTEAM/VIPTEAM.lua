@@ -248,7 +248,6 @@ function create_config( )
     "Welcome",
     "banhammer",
     "anti_spam",
-    "arabic_lock",
     "revip",
     "setrp",
     "uo",
