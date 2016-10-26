@@ -1,7 +1,7 @@
 
 do
 
-local function (msg, matches)
+local function run (msg, matches)
 local reply_id = msg['id']
 if is_momod(msg) and matches[1]== 'م1' then
 local S = [[  
@@ -72,6 +72,6 @@ usage = "Help list",
 patterns = {
 "^(م1)$",
 },
-run = mohammed 
+run = run
 }
 end
