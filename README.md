@@ -1,5 +1,5 @@
 #تيتو الاسطورة 
-# channel [🌐VIP🏅TEAM🌐](https://telegram.me/VIP_TEAM1)
+# channel [🌐no_no2🌐](https://telegram.me/no_no2)
 * * *
 
 
@@ -40,8 +40,8 @@ After you run the bot for first time, send it !id. Get your ID and stop the bot.
 Then restart the bot.
 * * *
 
-# Support and development [🌐VIP🏅TEAM🌐](https://telegram.me/VIP_TEAM1) 🐾
+# Support and development [🌐no_no2🌐](https://telegram.me/no_no2) 🐾
 
 For managing on Telegram.
-ADD Source [@VIP_TEAM1](https://telegram.me/VIP_TEAM1) ❤️
-Subscribe to Source channel [🌐VIP🏅TEAM🌐](https://telegram.me/VIP_TEAM1) 
+ADD Source [@no_no2](https://telegram.me/no_no2) ❤️
+Subscribe to Source channel [🌐no_no2🌐](https://telegram.me/no_no2) 
