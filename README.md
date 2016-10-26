@@ -1,4 +1,4 @@
-#VIP TEAM_A6
+#تيتو الاسطورة 
 # channel [🌐VIP🏅TEAM🌐](https://telegram.me/VIP_TEAM1)
 * * *
 
@@ -14,10 +14,10 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get upgrade
 
 #4
-git clone https://github.com/vipteam1/VIP_TEAM_A6.git
+git clone https://github.com/cc122cc/THETETOO2.git
 
 #5
-cd VIPTEAM_A6
+cd THETETOO2
 
 #6
 chmod +x launch.sh
