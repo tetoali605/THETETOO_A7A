@@ -3,7 +3,7 @@ do
 local function run(msg, matches)
 
 local reply_id = msg[ id ]
-if is_momod(msg) and matches[1] ==  م1  then 
+if is_momod(msg) and matches[1] ==  'م1' then 
     local ghost = [[
 the_tetoo⇒⇒ @no_no2
 👥 ▇▆▃ اوامـر الـترقيـه ▃▆▇
