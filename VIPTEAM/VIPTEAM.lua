@@ -258,13 +258,15 @@ function create_config( )
    "tagall",
    "textphoto",
    "voice",
-   "writer"
+   "writer",
+   "h3",
+  "me11"			
 
     },
     sudo_users = { 220530711,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Channel @VIP_TEAM1]],
-    help_text = [[Channel @VIP_TEAM1]],
+    about_text = [[Channel @no_no2]],
+    help_text = [[Channel @no_no2]],
 	help_text_super =[[Channel @no_no2]],
 help_text_realm = [[Channel @no_no2]],
   }
