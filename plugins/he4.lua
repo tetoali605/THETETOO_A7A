@@ -1,9 +1,10 @@
-
 do
 
-function (msg, matches)
+local function run(msg, matches)
+
 local reply_id = msg['id']
-local S = [[ 
+if is_momod(msg) and matches[1] == 'م4' then 
+    local ghost = [[
 ❗️ أوامر الحماية في المجموعة
 ➖🔹➖🔹➖🔹➖🔹➖🔹
 ▫️ قفل الفيديو :: لقفل الفيديو
@@ -27,16 +28,21 @@ local S = [[
 بوت تواصــل 
 @k4k3_bot
 
- ]]
-reply_msg(reply_id, S, ok_cb, false)
-end
+]]
+  reply_msg(reply_id, ghost, ok_cb, false) 
+end 
 
-return {
-description = "Help list", 
-usage = "Help list",
-patterns = {
-"^(م4)$",
-},
-run = 
-}
+local reply_id = msg['id'] 
+if not is_momod(msg) then 
+local ghost = "للـمـشـرفـيـن فـقـط 🌝😹" 
+reply_msg(reply_id, ghost, ok_cb, false) 
+end 
+
+end 
+return { 
+patterns ={ 
+  "^(م4)$", 
+}, 
+run = run 
+} 
 end
