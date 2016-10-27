@@ -1,7 +1,7 @@
 
 do
 
-local function (msg, matches)
+local function run(msg, matches)
   if matches[1] == 'موقعي' then
     if is_sudo(msg) then
     send_document(get_receiver(msg), "./files/me/sudo.webp", ok_cb, false)
@@ -42,6 +42,6 @@ return {
     "^(موقعي)$",
     "^(موقعي)$"
     },
-  run =
+  run = run
 }
 end
