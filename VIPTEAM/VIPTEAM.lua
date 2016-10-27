@@ -218,6 +218,7 @@ function create_config( )
    "admin",
    "ah1",
    "all",
+   "info",
    "anmar1",
    "anti_spam",
    "badword",
