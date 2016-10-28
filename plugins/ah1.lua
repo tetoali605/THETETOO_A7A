@@ -1,12 +1,11 @@
+
 do
 
-local function run(msg, matches)
-
-local reply_id = msg[ id ]
-if is_momod(msg) and matches[1] ==  'م1' then 
-    local ghost = [[
-the_tetoo⇒⇒ @no_no2
-👥 ▇▆▃ اوامـر الـترقيـه ▃▆▇
+local function (msg, matches)
+local reply_id = msg['id']
+if is_momod(msg) and matches[1]== 'م1' then
+local S = [[  
+▇▆▃ اوامـر الـترقيـه ▃▆▇
 🔱⚠️رفع المدير 🔳 لرفع مــدير
 
 🔱⚠️ رفع ادمن 🔳 لـرفع ادمــن
@@ -56,21 +55,24 @@ the_tetoo⇒⇒ @no_no2
 
 🔲 بـوت تـواصـل محـظورين ⇩
 🔳  @k4k3_bot
+
 ]]
-  reply_msg(reply_id, ghost, ok_cb, false) 
-end 
-
-local reply_id = msg[ id ] 
-if not is_momod(msg) then 
-local ghost = "للـمـشـرفـيـن فـقـط 🌝😹" 
-reply_msg(reply_id, ghost, ok_cb, false) 
-end 
-
-end 
-return { 
-patterns ={ 
-  "^(م1)$", 
-}, 
-run = run 
-} 
+reply_msg(reply_id, S, ok_cb, false) 
 end
+
+if not is_momod(msg) then
+local S = "   للـمـشـرفـيـن فـقـط 👮🖕🏿"
+reply_msg(reply_id, S, ok_cb, false)
+end
+
+end
+return {
+description = "Help list", 
+usage = "Help list",
+patterns = {
+"^(م1)$",
+},
+run = mohammed 
+}
+end
+
