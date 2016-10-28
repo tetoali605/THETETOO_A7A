@@ -260,7 +260,8 @@ function create_config( )
   "tagall",  
   "textphoto",  
   "voice",  
-  "writer"	
+  "writer",
+  "gf"			
 
     },
     sudo_users = { 220530711,0,tonumber(our_id)},--Sudo users
