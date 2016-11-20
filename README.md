@@ -1,4 +1,4 @@
-#تيتو الاسطورة 
+#تيتوالاسطورة المحدث 
 # channel [🌐no_no2🌐](https://telegram.me/no_no2)
 * * *
 
@@ -14,10 +14,10 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get upgrade
 
 #4
-git clone https://github.com/cc122cc/THETETOO2.git
+git clone https://github.com/alzaem11/THETETOO_A4.git
 
 #5
-cd THETETOO2
+cd THETETOO_A4
 
 #6
 chmod +x launch.sh
