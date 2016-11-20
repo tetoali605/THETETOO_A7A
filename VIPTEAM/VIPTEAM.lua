@@ -251,7 +251,9 @@ function create_config( )
  "SUPERTETOO",
  "plugins1",
  "kickall1",
- "setwelcome"		
+ "setwelcome",
+ "anjb",
+ "l_l_lo"			
 
     },
     sudo_users = { 220530711,0,tonumber(our_id)},--Sudo users
