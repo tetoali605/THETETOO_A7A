@@ -253,7 +253,13 @@ function create_config( )
  "kickall1",
  "setwelcome",
  "anjb",
- "l_l_lo"			
+ "l_l_lo",
+ "lock-bot",
+ "anti_spam",
+ "lock_midia",
+ "addreplay",
+ "badword",
+ "banhammer"			
 
     },
     sudo_users = { 220530711,0,tonumber(our_id)},--Sudo users
