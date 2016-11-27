@@ -11,7 +11,7 @@ if matches[1] == 'حذف الترحيب' and not matches[2] and is_owner(msg) th
    data[tostring(msg.to.id)]['group_welcome'] = nil --delete welcome
         save_data(_config.moderation.data, data)
         
-        return 'تم حذف الترحيب'
+        return 'تم ❌ حذف ❗️ الترحيب ✋😊'
 end
 if not is_owner(msg) then 
     return 'للمشرفين فقط🌝🍷'
@@ -26,7 +26,7 @@ end
 data[tostring(msg.to.id)]['group_welcome'] = matches[2]..'\n\nGroup Rules :\n'..rules
         save_data(_config.moderation.data, data)
         
-        return 'تم☑️ وضع الترحيب💕 على :\n'..matches[2]
+        return 'تم ☑️ وضع ❕ وضع الترحيب 👍😽:\n'..matches[2]
 end
 if not is_owner(msg) then 
     return 'للمشرفين فقط🌝🍷'
@@ -37,7 +37,7 @@ if matches[1] and is_owner(msg) then
 data[tostring(msg.to.id)]['group_welcome'] = matches[1]
         save_data(_config.moderation.data, data)
         
-        return 'تم☑️ وضع الترحيب💕 على : \n'..matches[1]
+      return 'تم ☑️ وضع ❕ وضع الترحيب 👍😽: \n'..matches[1]
 end
 if not is_owner(msg) then 
     return 'للمشرفين فقط🌝🍷'
@@ -53,4 +53,5 @@ return {
   "^(حذف الترحيب)$"
   },
   run = run
-}
+} 
+ 
