@@ -270,8 +270,6 @@ function create_config( )
     0
   }
 }
-return _
-end
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
