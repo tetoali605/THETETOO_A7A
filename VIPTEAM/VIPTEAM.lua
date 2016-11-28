@@ -260,8 +260,9 @@ function create_config( )
   },
       sudo_users = {
     220530711,
-    291839052,
-    0
+    220530711,
+	0,
+    YourID
   }
     disabled_channels = {@no_no2},
     moderation = {data = 'data/moderation.json'}
