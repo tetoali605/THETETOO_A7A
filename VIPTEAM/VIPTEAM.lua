@@ -258,96 +258,88 @@ function create_config( )
     "ME",
     "adev"
       },
-      sudo_users = {
-    220530711,
-    220530711,
-	0,
-    YourID
-  }
-    disabled_channels = {@no_no2},
+	sudo_users = {220530711,291839052},
+    disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
   serialize_to_file(config, './data/config.lua')
-  print ('saved config into ./data/config.lua')
+      print ('saved config into ./data/config.lua')
 end
-
+​
 function on_our_id (id)
   our_id = id
 end
-
+​
 function on_user_update (user, what)
   --vardump (user)
 end
-
+​
 function on_chat_update (chat, what)
   --vardump (chat)
 end
-
+​
 function on_secret_chat_update (schat, what)
   --vardump (schat)
 end
-
+​
 function on_get_difference_end ()
 end
-
+​
 -- Enable plugins in config.json
 function load_plugins()
   for k, v in pairs(_config.enabled_plugins) do
     print("Loading plugin", v)
-
+​
     local ok, err =  pcall(function()
       local t = loadfile("plugins/"..v..'.lua')()
       plugins[v] = t
     end)
-
+​
     if not ok then
       print('\27[31mError loading plugin '..v..'\27[39m')
-	  print(tostring(io.popen("lua plugins/"..v..".lua"):read('*all')))
       print('\27[31m'..err..'\27[39m')
     end
-
+​
   end
 end
-
--- custom add
+​
 function load_data(filename)
-
-	local f = io.open(filename)
-	if not f then
-		return {}
-	end
-	local s = f:read('*all')
-	f:close()
-	local data = JSON.decode(s)
-
-	return data
-
+​
+        local f = io.open(filename)
+        if not f then
+                return {}
+        end
+        local s = f:read('*all')
+        f:close()
+        local data = JSON.decode(s)
+​
+        return data
+​
 end
-
+​
 function save_data(filename, data)
-
-	local s = JSON.encode(data)
-	local f = io.open(filename, 'w')
-	f:write(s)
-	f:close()
-
+​
+        local s = JSON.encode(data)
+        local f = io.open(filename, 'w')
+        f:write(s)
+        f:close()
+​
 end
-
-
+​
 -- Call and postpone execution for cron plugins
 function cron_plugins()
-
+​
   for name, plugin in pairs(plugins) do
     -- Only plugins with cron function
     if plugin.cron ~= nil then
       plugin.cron()
     end
   end
-
-  -- Called again in 2 mins
-  postpone (cron_plugins, false, 120)
+​
+  -- Called again in 5 mins
+  postpone (cron_plugins, false, 5*60.0)
 end
-
+​
 -- Start and load values
 our_id = 0
 now = os.time()
