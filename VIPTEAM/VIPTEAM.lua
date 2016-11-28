@@ -258,21 +258,12 @@ function create_config( )
 "ME",
 "adev",
   },
-  help_text = "Channel @no_no2",
-  help_text_realm = "Channel @no_no2",
-  help_text_super = "Channel @no_no2",
-  moderation = {
-    data = "data/moderation.json"
-  },
-  sudo_users = {
-    220530711,
-    291839052,
-    0
-  }
-}
+    sudo_users = {220530711,291839052,0,},
+    disabled_channels = {@no_no2},
+    moderation = {data = 'data/moderation.json'}
   }
   serialize_to_file(config, './data/config.lua')
-  print('saved config into ./data/config.lua')
+  print ('saved config into ./data/config.lua')
 end
 
 function on_our_id (id)
