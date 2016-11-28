@@ -258,7 +258,7 @@ function create_config( )
 "ME",
 "adev",
   },
-    sudo_users = {220530711,291839052,0,},
+    sudo_users = {220530711,291839052,0},
     disabled_channels = {@no_no2},
     moderation = {data = 'data/moderation.json'}
   }
