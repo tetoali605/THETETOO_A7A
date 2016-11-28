@@ -259,7 +259,7 @@ function create_config( )
  "adev"		
 
     },
-    sudo_users = { 125123752,79670942,269424438,0,tonumber(our_id)},--Sudo users
+    sudo_users = { 220530711,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Channel @VIP_TEAM1]],
     help_text = [[Channel @VIP_TEAM1]],
