@@ -256,7 +256,8 @@ function create_config( )
  "addreplay",
  "SUPERTETOO",
  "ME",
- "adev"		
+ "adev",
+ "ax"			
 
     },
     sudo_users = { 220530711,0,tonumber(our_id)},--Sudo users
