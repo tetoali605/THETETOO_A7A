@@ -261,10 +261,10 @@ function create_config( )
     },
     sudo_users = { 220530711,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Channel @VIP_TEAM1]],
-    help_text = [[Channel @VIP_TEAM1]],
-	help_text_super =[[Channel @VIP_TEAM1]],
-help_text_realm = [[Channel @VIP_TEAM1]],
+    about_text = [[Channel @no_no2]],
+    help_text = [[Channel @no_no2]],
+	help_text_super =[[Channel @no_no2]],
+help_text_realm = [[Channel @no_no2]],
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
