@@ -218,7 +218,7 @@ function create_config( )
 "HELP",
 "HELP1",
 "HELP2",
-"HELP3,"
+"HELP3",
 "HELP4", 
 "SUPERTETOO",
 "T_fwd",
