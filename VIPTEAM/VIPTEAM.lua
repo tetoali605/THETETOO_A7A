@@ -267,7 +267,8 @@ function create_config( )
 "ar-info",
 "en-suprrgroup",
 "plugins",
-"repaly"		
+"repaly",
+"HELP1"			
 
     },
     sudo_users = { 220530711,0,tonumber(our_id)},--Sudo users
