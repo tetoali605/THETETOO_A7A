@@ -264,7 +264,7 @@ function create_config( )
 "echo",
 "bot",
 "ax",
-"ingroup"
+"ingroup",
 "lock_link",
 "kickm"		
 
