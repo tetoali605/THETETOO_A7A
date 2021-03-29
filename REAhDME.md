@@ -43,5 +43,5 @@ Then restart the bot.
 # Support and development [🌐no_no2🌐](https://telegram.me/no_no2) 🐾
 
 For managing on Telegram.
-ADD Source [@no_no2](https://telegram.me/no_no2) ❤️
+ADD Sou_no2](https://telegram.me/no_no2) ❤️
 Subscribe to Source channel [🌐no_no2🌐](https://telegram.me/no_no2) 
